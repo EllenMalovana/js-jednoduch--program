@@ -9,6 +9,7 @@ function calculateAverage(array) {
     }
     return sum / array.length;
 }
+//Nejlepší znamka je 1 
 
 // Najdeme nejlepší a nejhorší známku
 let min = grades[0];
