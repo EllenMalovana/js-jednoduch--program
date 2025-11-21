@@ -22,6 +22,8 @@ for (let i = 1; i < grades.length; i++) {
         max = grades[i];
     }
 }
+console.log("Průměr známek je:", calculateAverage(grades));
+
 
 // Filtr dobrých známek
 const goodGrades = grades.filter(g => g < 3);
@@ -29,6 +31,7 @@ const goodGrades = grades.filter(g => g < 3);
 // Výstup
 console.log("Známky:", grades);
 console.log("Průměr:", calculateAverage(grades));
-console.log("Nejlepší známka:", min);
+console.log("Nejlepší známkaa:", min);
 console.log("Nejhorší známka:", max);
 console.log("Známky lepší než 3:", goodGrades);
+// Přidali jsme výpočet průměru známek
